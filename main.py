@@ -48,4 +48,4 @@ async def changeStatus():
     game = discord.Game(random.choice(status))
     await bot.change_presence(status=discord.Status.dnd, activity=game)
 
-bot.run("MTEzOTYwNjQ0Mzk1MjE4OTQ1Mg.G41dC5.J1_e2LSSgumaJdVfrc_2YTjPTDbgMWfcMMpYco")
+bot.run(TOKEN)
